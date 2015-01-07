@@ -31,6 +31,8 @@ private:
 	ID3D10EffectMatrixVariable* mfxWVar;
 	ID3D10EffectShaderResourceVariable* mfxCubeMapVar;
 	ID3D10EffectVariable* mfxEyePosVar;
+	ID3D10EffectMatrixVariable* mfxInverseProjection;
+	ID3D10EffectMatrixVariable* mfxg_mInvView;
 };
 
 #endif // SKY_H

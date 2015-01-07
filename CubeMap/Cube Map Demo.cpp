@@ -334,7 +334,7 @@ void CubeMapApp::drawScene()
 		mfxCubeMapEnabledVar->SetBool(false);
 		mfxReflectMtrlVar->SetFloatVector((float*)&mReflectNone);
 		pass->Apply(0);
-		mFloor.draw();
+	//	mFloor.draw();
 		//
 		// draw base
 		//
@@ -346,7 +346,7 @@ void CubeMapApp::drawScene()
 		mfxSpecMapVar->SetResource(mSpecMapRV);
 		mfxCubeMapEnabledVar->SetBool(false);
 		mfxReflectMtrlVar->SetFloatVector((float*)&mReflectNone);
-		pass->Apply(0);
+	//	pass->Apply(0);
 	//	mBase.draw();
 
 		//
@@ -377,7 +377,7 @@ void CubeMapApp::drawScene()
 			mfxWVPVar->SetMatrix((float*)&columnWVP);
 			mfxWorldVar->SetMatrix((float*)&mColumnWorld[i]);
 			pass->Apply(0);
-			mColumn.draw();
+	//		mColumn.draw();
 		}	
 		//
 		// draw balls
@@ -393,7 +393,7 @@ void CubeMapApp::drawScene()
 			mfxWorldVar->SetMatrix((float*)&mBallWorld[i]);
 			mfxReflectMtrlVar->SetFloatVector((float*)&mReflectMtrl[i]);
 			pass->Apply(0);
-			mBall.draw();
+	//		mBall.draw();
 		}
     }
 
