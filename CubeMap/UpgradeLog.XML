@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CubeMap">
+</Property><Property Name="Solution File" Value="D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.sln">
+</Property><Property Name="User Options File" Value="D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.suo">
+</Property><Property Name="Date" Value="2012年3月23日">
+</Property><Property Name="Time" Value="16:21">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CubeMap.sln" Description="File successfully backed up as D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="CubeMap.suo" Description="File successfully backed up as D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.suo.old">
+</Event><Event ErrorLevel="0" Project="CubeMap" Source="CubeMap.vcproj" Description="Converting project file 'D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CubeMap" Source="CubeMap.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="CubeMap" Source="CubeMap.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="CubeMap" Source="CubeMap.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="CubeMap" Source="CubeMap.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="CubeMap" Source="CubeMap.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="CubeMap" Source="CubeMap.vcproj" Description="Done converting to new project file 'D:\QQDownload\Introduction.to.3D.Game.Programming.with.DirectX.10\Introduction.to.3D.Game.Programming.with.DirectX.10_code\Chapter 11\CubeMap\CubeMap.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CubeMap" Source="CubeMap.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CubeMap.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CubeMap.sln" Description="Converted">
+</Event></UpgradeLog>
