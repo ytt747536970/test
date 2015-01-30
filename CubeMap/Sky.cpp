@@ -152,7 +152,7 @@ void Sky::draw()
         ID3D10EffectPass* pass = mTech->GetPassByIndex(p);
 
 		pass->Apply(0);
-		md3dDevice->DrawIndexed(mNumIndices, 0, 0);
+		md3dDevice->DrawIndexed(mNumIndices, 2, 0);
 	//	md3dDevice->Draw(4,0);
 	}
 }

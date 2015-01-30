@@ -93,15 +93,15 @@ VS_OUT VS(VS_IN vIn)
 	VS_OUT vOut;
 	
 	// set z = w so that z/w = 1 (i.e., skydome always on far plane).
-//	vOut.posH = mul(float4(vIn.posL, 1.0f), gWVP).xyzw;
+	vOut.posH = mul(float4(vIn.posL, 1.0f), gWVP).xyzw;
 //	vOut.posH =float4( mul(float4(vIn.posL, 1.0f), gWVP).xy,1,mul(float4(vIn.posL, 1.0f), gWVP).w);
 	// use local vertex position as cubemap lookup vector.
-	vOut.posH = float4(vIn.posL.xy,1.0, 1.0f);
+/*	vOut.posH = float4(vIn.posL.xy,1.0, 1.0f);
 	float4 unprojectedPos = mul( float4( vIn.posL.xy, 0, 1 ), g_mInverseProjection );
 	unprojectedPos.xy *= 1.0;
     unprojectedPos.z = 1.0;
     unprojectedPos.w = 1;
-	vOut.worldPos = mul(unprojectedPos, g_mInvView).xyz;
+	vOut.worldPos = mul(unprojectedPos, g_mInvView).xyz;*/
 	/*  Output.HPos =  float4(Input.Pos.xy, 1.0, 1.0);
     float4 unprojectedPos = mul( float4( vIn.posL.xy, 0, 1 ), g_mInverseProjection );//??
     unprojectedPos.xy *= g_Near;
@@ -111,7 +111,7 @@ VS_OUT VS(VS_IN vIn)
 	*/
 	vOut.texC = vIn.posL;
 
-	//vOut.worldPos = mul(float4(vIn.posL, 1.0f), gWorld).xyz;
+	vOut.worldPos = mul(float4(vIn.posL, 1.0f), gWorld).xyz;
 	
 	return vOut;
 }
